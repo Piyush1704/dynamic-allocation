@@ -1,3 +1,4 @@
+//slight modifications to the previous version
 #include<iostream>
 #include<new>
 #include<cstdlib>
@@ -28,7 +29,7 @@ void print(int ***p,int a,int b,int c)
         cout<<endl<<endl;
     }
 }
-bool exchange(int ***p,int a,int b,int c,int d,int e)
+bool exchange(int ***p,int a,int b,int c,int d,int e)//to make sure that the indices are valid
 {
     int *f;
     int *g;
